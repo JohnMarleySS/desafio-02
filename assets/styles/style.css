@@ -43,8 +43,8 @@
     color: "Montserrat semibold";
 }
 
-.hero {
-    height: 60vh;
+.banner {
+    height: 500px;
     width: 100%;
     background-image: linear-gradient( rgba(1, 1, 1, 0.325), rgba(0, 0, 0, 0.564)), url(/assets/images/wallpaper.jpeg);
     background-position: center;
@@ -55,26 +55,48 @@
     background-attachment: fixed;
 }
 
-.inf-hero {
-    display: block;
-    align-items: center;
-    width: 70rem;
-    height: 15rem;
-    color: white;
-    font-style: normal;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
+.title_banner {
+    font-family: 'Montserrat semibold';
+    font-size: 32px;
+    margin: 20px 0;
+    color: #fff;
 }
 
-.title_hero {
-    margin-left: 25rem;
-    margin-bottom: 2rem;
+.inf-banner {
     display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    color: #fff;
 }
 
 .subtitle_hero {
-    margin-left: 25rem;
+    font-family: 'Montserrat semibold';
+    line-height: 30px;
     display: flex;
-    font-size: 17px;
-    padding: 5px;
+    color: #fff;
+}
+
+.title-content h1 {
+    font-family: 'Montserrat semibold';
+    font-size: 28px;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0 25px 0;
+}
+
+.title-content p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.background_shoes {
+    display: flex;
 }
